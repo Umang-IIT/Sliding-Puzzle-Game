@@ -1,0 +1,25 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+}
+#big-box{
+    margin: auto;
+    width: 32vw;
+}
+.row{
+    display: table-row;
+    height: 25%;
+}
+.cell{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+}
