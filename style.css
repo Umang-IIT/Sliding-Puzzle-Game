@@ -9,12 +9,13 @@ body{
 #big-box{
     margin: auto;
     width: 32vw;
+    height: 32vw;
 }
 .row{
     display: table-row;
     height: 25%;
 }
-.cell{
+.tile1{
     display: table-cell;
     width: 8vw;
     background-color: orange;
@@ -22,4 +23,155 @@ body{
     border: 2px yellow solid;
     font-size: 6vw;
     text-align: center;
+    cursor: pointer;
+}
+.tile2{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile3{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile4{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile5{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile6{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile7{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile8{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile9{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile10{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile11{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile12{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile13{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile14{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile15{
+    display: table-cell;
+    width: 8vw;
+    background-color: orange;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
+}
+.tile16{
+    display: table-cell;
+    width: 8vw;
+    background-color: grey;
+    height: 8vw;
+    border: 2px yellow solid;
+    font-size: 6vw;
+    text-align: center;
+    cursor: pointer;
 }
