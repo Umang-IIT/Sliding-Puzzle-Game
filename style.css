@@ -28,6 +28,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile2{
     display: table-cell;
@@ -42,6 +43,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile3{
     display: table-cell;
@@ -56,6 +58,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile4{
     display: table-cell;
@@ -70,6 +73,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile5{
     display: table-cell;
@@ -84,6 +88,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile6{
     display: table-cell;
@@ -98,6 +103,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile7{
     display: table-cell;
@@ -112,6 +118,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile8{
     display: table-cell;
@@ -126,6 +133,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile9{
     display: table-cell;
@@ -140,6 +148,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile10{
     display: table-cell;
@@ -154,6 +163,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile11{
     display: table-cell;
@@ -168,6 +178,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile12{
     display: table-cell;
@@ -182,6 +193,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile13{
     display: table-cell;
@@ -196,6 +208,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile14{
     display: table-cell;
@@ -210,6 +223,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile15{
     display: table-cell;
@@ -224,6 +238,7 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
 .tile16{
     display: table-cell;
@@ -238,4 +253,5 @@ body{
     transition-delay: 0s;
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
+    border-radius: 10%;
 }
