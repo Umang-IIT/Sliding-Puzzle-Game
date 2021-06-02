@@ -18,14 +18,13 @@ function cellWriter(){
 
 }
 
-cellWriter();
-
 function swapClass(cell1,cell2){
     var temp = document.getElementById(cell1).className;
     var temp1 = document.getElementById(cell2).className;
     document.getElementById(cell1).className = temp1;
     document.getElementById(cell2).className = temp;
     cellWriter();
+    colorChanger();
     return;
 }
 
@@ -47,4 +46,69 @@ function clickCell(row,column){
     }
 
     return;
+}
+
+cellWriter();
+colorChanger();
+function colorChanger(){
+if(document.getElementById("cell11").className=="tile1") document.getElementById("cell11").style.backgroundColor = "red";
+else if(document.getElementById("cell11").className=="tile16") document.getElementById("cell11").style.backgroundColor = "grey";
+else document.getElementById("cell11").style.backgroundColor = "orange";
+
+if(document.getElementById("cell12").className=="tile2") document.getElementById("cell12").style.backgroundColor = "red";
+else if(document.getElementById("cell12").className=="tile16") document.getElementById("cell12").style.backgroundColor = "grey";
+else document.getElementById("cell12").style.backgroundColor = "orange";
+
+if(document.getElementById("cell13").className=="tile3") document.getElementById("cell13").style.backgroundColor = "red";
+else if(document.getElementById("cell13").className=="tile16") document.getElementById("cell13").style.backgroundColor = "grey";
+else document.getElementById("cell13").style.backgroundColor = "orange";
+
+if(document.getElementById("cell14").className=="tile4") document.getElementById("cell14").style.backgroundColor = "red";
+else if(document.getElementById("cell14").className=="tile16") document.getElementById("cell14").style.backgroundColor = "grey";
+else document.getElementById("cell14").style.backgroundColor = "orange";
+
+if(document.getElementById("cell21").className=="tile5") document.getElementById("cell21").style.backgroundColor = "red";
+else if(document.getElementById("cell21").className=="tile16") document.getElementById("cell21").style.backgroundColor = "grey";
+else document.getElementById("cell21").style.backgroundColor = "orange";
+
+if(document.getElementById("cell22").className=="tile6") document.getElementById("cell22").style.backgroundColor = "red";
+else if(document.getElementById("cell22").className=="tile16") document.getElementById("cell22").style.backgroundColor = "grey";
+else document.getElementById("cell22").style.backgroundColor = "orange";
+
+if(document.getElementById("cell23").className=="tile7") document.getElementById("cell23").style.backgroundColor = "red";
+else if(document.getElementById("cell23").className=="tile16") document.getElementById("cell23").style.backgroundColor = "grey";
+else document.getElementById("cell23").style.backgroundColor = "orange";
+
+if(document.getElementById("cell24").className=="tile8") document.getElementById("cell24").style.backgroundColor = "red";
+else if(document.getElementById("cell24").className=="tile16") document.getElementById("cell24").style.backgroundColor = "grey";
+else document.getElementById("cell24").style.backgroundColor = "orange";
+
+if(document.getElementById("cell31").className=="tile9") document.getElementById("cell31").style.backgroundColor = "red";
+else if(document.getElementById("cell31").className=="tile16") document.getElementById("cell31").style.backgroundColor = "grey";
+else document.getElementById("cell31").style.backgroundColor = "orange";
+
+if(document.getElementById("cell32").className=="tile10") document.getElementById("cell32").style.backgroundColor = "red";
+else if(document.getElementById("cell32").className=="tile16") document.getElementById("cell32").style.backgroundColor = "grey";
+else document.getElementById("cell32").style.backgroundColor = "orange";
+
+if(document.getElementById("cell33").className=="tile11") document.getElementById("cell33").style.backgroundColor = "red";
+else if(document.getElementById("cell33").className=="tile16") document.getElementById("cell33").style.backgroundColor = "grey";
+else document.getElementById("cell33").style.backgroundColor = "orange";
+
+if(document.getElementById("cell34").className=="tile12") document.getElementById("cell34").style.backgroundColor = "red";
+else if(document.getElementById("cell34").className=="tile16") document.getElementById("cell34").style.backgroundColor = "grey";
+else document.getElementById("cell34").style.backgroundColor = "orange";
+
+if(document.getElementById("cell41").className=="tile13") document.getElementById("cell41").style.backgroundColor = "red";
+else if(document.getElementById("cell41").className=="tile16") document.getElementById("cell41").style.backgroundColor = "grey";
+else document.getElementById("cell41").style.backgroundColor = "orange";
+
+if(document.getElementById("cell42").className=="tile14") document.getElementById("cell42").style.backgroundColor = "red";
+else if(document.getElementById("cell42").className=="tile16") document.getElementById("cell42").style.backgroundColor = "grey";
+else document.getElementById("cell42").style.backgroundColor = "orange";
+
+if(document.getElementById("cell43").className=="tile15") document.getElementById("cell43").style.backgroundColor = "red";
+else if(document.getElementById("cell43").className=="tile16") document.getElementById("cell43").style.backgroundColor = "grey";
+else document.getElementById("cell43").style.backgroundColor = "orange";
+
 }
