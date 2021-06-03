@@ -116,6 +116,7 @@ else document.getElementById("cell43").style.backgroundColor = "orange";
 }
 
 function shuffle(){
+    moves=-16;
     for(row=1;row<=4;++row){
         for(column=1;column<=4;++column){
             var random_row = Math.floor(Math.random()*4+1);
@@ -123,7 +124,7 @@ function shuffle(){
             swapClass("cell"+row+column,"cell"+random_row+random_column);
         }
     }
-    moves=-16;
+    
 }
 
 function checker(){
@@ -160,7 +161,8 @@ function checker(){
     }
 }
 
-var moves=-16;
+
 cellWriter();
 colorChanger();
 shuffle();
+var moves=0;
