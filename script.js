@@ -25,6 +25,9 @@ function swapClass(cell1,cell2){
     document.getElementById(cell2).className = temp;
     cellWriter();
     colorChanger();
+    // calculating moves
+    moves=+moves+1;
+    document.getElementsByClassName("moves")[0].innerHTML = "Moves<br>"+moves;
     return;
 }
 
@@ -44,12 +47,11 @@ function clickCell(row,column){
         if(document.getElementById("cell"+row+(+column-1)).className=="tile16") swapClass("cell"+row+column,"cell"+row+(+column-1));
         }
     }
+    checker();
 
     return;
 }
 
-cellWriter();
-colorChanger();
 function colorChanger(){
 if(document.getElementById("cell11").className=="tile1") document.getElementById("cell11").style.backgroundColor = "red";
 else if(document.getElementById("cell11").className=="tile16") document.getElementById("cell11").style.backgroundColor = "grey";
@@ -112,3 +114,52 @@ else if(document.getElementById("cell43").className=="tile16") document.getEleme
 else document.getElementById("cell43").style.backgroundColor = "orange";
 
 }
+
+function shuffle(){
+    for(row=1;row<=4;++row){
+        for(column=1;column<=4;++column){
+            var random_row = Math.floor(Math.random()*4+1);
+            var random_column = Math.floor(Math.random()*4+1);
+            swapClass("cell"+row+column,"cell"+random_row+random_column);
+        }
+    }
+}
+
+function checker(){
+    if(document.getElementById("cell11").className=="tile1"){
+        if(document.getElementById("cell12").className=="tile2"){
+            if(document.getElementById("cell13").className=="tile3"){
+                if(document.getElementById("cell14").className=="tile4"){
+                    if(document.getElementById("cell21").className=="tile5"){
+                        if(document.getElementById("cell22").className=="tile6"){
+                            if(document.getElementById("cell23").className=="tile7"){
+                                if(document.getElementById("cell24").className=="tile8"){
+                                    if(document.getElementById("cell31").className=="tile9"){
+                                        if(document.getElementById("cell32").className=="tile10"){
+                                            if(document.getElementById("cell33").className=="tile11"){
+                                                if(document.getElementById("cell34").className=="tile12"){
+                                                    if(document.getElementById("cell41").className=="tile13"){
+                                                        if(document.getElementById("cell42").className=="tile14"){
+                                                            if(document.getElementById("cell43").className=="tile15"){
+                                                                alert("Yeah!! You Win");
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+var moves=-16;
+cellWriter();
+colorChanger();
+shuffle();

@@ -5,6 +5,18 @@
 }
 body{
     box-sizing: border-box;
+    background-color: red;
+}
+#top-bar{
+    background-color: rgb(231, 144, 14);
+    text-align: center;
+    font-size: 230%;
+    width: 32vw;
+    margin: auto;
+    border-radius: 1vw;
+    margin-top: 5vw;
+    color: whitesmoke;
+    border: 2px yellow solid;
 }
 #big-box{
     margin: auto;
@@ -254,4 +266,30 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+}
+
+.btn{
+    position: absolute;
+    font-size: 200%;
+    display: block;
+    background-color: green;
+    color: white;
+    top: 22vw;
+    padding: 1vh 1vw 1vh 1vw;
+    cursor: pointer;
+    margin-left: 1vw;
+    border-radius: 10px;
+}
+.moves{
+    position: absolute;
+    font-size: 200%;
+    display: block;
+    background-color: green;
+    color: white;
+    top: 5vw;
+    padding: 1vh 1vw 1vh 1vw;
+    cursor: pointer;
+    margin-left: 1vw;
+    border-radius: 10px;
+    text-align: center;
 }
