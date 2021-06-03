@@ -277,7 +277,7 @@ body{
     top: 22vw;
     padding: 1vh 1vw 1vh 1vw;
     cursor: pointer;
-    margin-left: 1vw;
+    left:68vw;
     border-radius: 10px;
 }
 .btn:hover{
@@ -295,4 +295,5 @@ body{
     margin-left: 1vw;
     border-radius: 10px;
     text-align: center;
+    left: 68vw;
 }
