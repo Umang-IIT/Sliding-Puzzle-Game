@@ -123,6 +123,7 @@ function shuffle(){
             swapClass("cell"+row+column,"cell"+random_row+random_column);
         }
     }
+    moves=-16;
 }
 
 function checker(){
