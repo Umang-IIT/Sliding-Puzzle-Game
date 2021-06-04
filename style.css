@@ -297,3 +297,17 @@ body{
     text-align: center;
     left: 68vw;
 }
+.timer{
+    position: absolute;
+    font-size: 200%;
+    display: block;
+    background-color: green;
+    color: white;
+    top: 5vw;
+    padding: 1vh 1vw 1vh 1vw;
+    cursor: pointer;
+    margin-left: 1vw;
+    border-radius: 10px;
+    text-align: center;
+    left: 77vw;
+}

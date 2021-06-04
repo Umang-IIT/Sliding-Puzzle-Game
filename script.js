@@ -124,7 +124,8 @@ function shuffle(){
             swapClass("cell"+row+column,"cell"+random_row+random_column);
         }
     }
-    
+    myfunction();
+    return;
 }
 
 function checker(){
@@ -144,6 +145,7 @@ function checker(){
                                                         if(document.getElementById("cell42").className=="tile14"){
                                                             if(document.getElementById("cell43").className=="tile15"){
                                                                 alert("Yeah!! You Win");
+                                                                return 0;
                                                             }
                                                         }
                                                     }
@@ -159,6 +161,20 @@ function checker(){
             }
         }
     }
+    return 1;
+}
+
+function timerUpdate(){
+    var a = new Date();
+    var time = (a.getHours()-d.getHours())*3600 + (a.getMinutes()-d.getMinutes())*60 + (a.getSeconds()-d.getSeconds());
+    document.getElementsByClassName("timer")[0].innerHTML = "Time<br>" + time;
+    return;
+}
+
+function myfunction(){
+    d = new Date();
+    setInterval(timerUpdate,1000);
+    return;
 }
 
 
@@ -166,3 +182,6 @@ cellWriter();
 colorChanger();
 shuffle();
 var moves=0;
+var d = new Date();
+
+
