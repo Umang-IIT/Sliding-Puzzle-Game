@@ -167,7 +167,7 @@ function checker(){
 function timerUpdate(){
     var a = new Date();
     var time = (a.getHours()-d.getHours())*3600 + (a.getMinutes()-d.getMinutes())*60 + (a.getSeconds()-d.getSeconds());
-    document.getElementsByClassName("timer")[0].innerHTML = "Time<br>" + time;
+    document.getElementsByClassName("timer")[0].innerHTML = "Time<br>" + time + "s";
     return;
 }
 
