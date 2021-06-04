@@ -12,8 +12,8 @@ body{
     position: relative;
     background-color: rgb(231, 144, 14);
     text-align: center;
-    font-size: 230%;
-    width: 33vw;
+    font-size: 5vw;
+    width: 32.5vw;
     left: 25vw;
     border-radius: 1vw;
     margin-top: 5vw;
@@ -274,7 +274,7 @@ body{
 
 .btn{
     position: absolute;
-    font-size: 200%;
+    font-size: 5vw;
     display: block;
     background-color: green;
     color: white;
@@ -290,7 +290,7 @@ body{
 }
 .moves{
     position: absolute;
-    font-size: 200%;
+    font-size: 5vw;
     display: block;
     background-color: green;
     color: white;
@@ -304,7 +304,7 @@ body{
 }
 .timer{
     position: absolute;
-    font-size: 200%;
+    font-size: 5vw;
     display: block;
     background-color: green;
     color: white;
@@ -315,4 +315,30 @@ body{
     border-radius: 10px;
     text-align: center;
     left: 67vw;
+}
+
+@media screen and (min-width: 1024px) {
+    .timer{
+        left: 70vw;
+    }
+}
+@media screen and (min-width: 768px) {
+    .timer{
+        left: 73vw;
+    }
+}
+@media screen and (min-width: 425px) {
+    .timer{
+        left: 76vw;
+    }
+}
+@media screen and (min-width: 375px) {
+    .timer{
+        left: 76vw;
+    }
+}
+@media screen and (min-width: 320px) {
+    .timer{
+        left: 76vw;
+    }
 }
