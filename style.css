@@ -275,11 +275,11 @@ body{
 
 .btn{
     position: absolute;
-    font-size: 5vw;
+    font-size: 3vw;
     display: block;
-    background-image: linear-gradient(to right, rgb(211, 72, 114), rgb(255, 0, 21));
+    background-image: linear-gradient(to bottom right, rgb(211, 72, 114), rgb(255, 0, 21));
     color: white;
-    top: 22vw;
+    top: 28vw;
     padding: 1vh 1vw 1vh 1vw;
     cursor: pointer;
     left: 58vw;
@@ -287,17 +287,16 @@ body{
     margin-left: 1vw;
 }
 .btn:hover{
-    background-image: linear-gradient(to right, rgb(165, 48, 83), rgb(89, 33, 141));
+    background-image: linear-gradient(to bottom right, rgb(165, 48, 83), rgb(89, 33, 141));
 }
 .moves{
     position: absolute;
-    font-size: 5vw;
+    font-size: 3vw;
     display: block;
-    background-image: linear-gradient(to right, rgb(211, 72, 114), rgb(255, 0, 21));
+    background-image: linear-gradient(to bottom right, rgb(211, 72, 114), rgb(255, 0, 21));
     color: white;
     top: 5vw;
     padding: 1vh 1vw 1vh 1vw;
-    cursor: pointer;
     margin-left: 1vw;
     border-radius: 10px;
     text-align: center;
@@ -305,41 +304,28 @@ body{
 }
 .timer{
     position: absolute;
-    font-size: 5vw;
+    font-size: 3vw;
     display: block;
-    background-image: linear-gradient(to right, rgb(211, 72, 114), rgb(255, 0, 21));
+    background-image: linear-gradient(to bottom right, rgb(211, 72, 114), rgb(255, 0, 21));
     color: white;
     top: 5vw;
     padding: 1vh 1vw 1vh 1vw;
-    cursor: pointer;
     margin-left: 1vw;
     border-radius: 10px;
     text-align: center;
-    left: 67vw;
+    left: 70vw;
+}
+.score{
+    position: absolute;
+    top: 16vw;
+    left: 65vw;
+    font-size: 3vw;
+    display: block;
+    background-image: linear-gradient(to bottom right, rgb(211, 72, 114), rgb(255, 0, 21));
+    color: white;
+    padding: 1vh 1vw 1vh 1vw;
+    border-radius: 10px;
+    text-align: center;
+
 }
 
-@media screen and (min-width: 1024px) {
-    .timer{
-        left: 70vw;
-    }
-}
-@media screen and (min-width: 768px) {
-    .timer{
-        left: 73vw;
-    }
-}
-@media screen and (min-width: 425px) {
-    .timer{
-        left: 76vw;
-    }
-}
-@media screen and (min-width: 375px) {
-    .timer{
-        left: 76vw;
-    }
-}
-@media screen and (min-width: 320px) {
-    .timer{
-        left: 76vw;
-    }
-}

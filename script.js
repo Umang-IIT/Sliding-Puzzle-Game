@@ -17,7 +17,7 @@ function cellWriter(){
     document.getElementsByClassName("tile16")[0].innerHTML=" ";
 
 }
-
+var score = 0;
 function swapClass(cell1,cell2){
     var temp = document.getElementById(cell1).className;
     var temp1 = document.getElementById(cell2).className;
@@ -28,9 +28,10 @@ function swapClass(cell1,cell2){
     // calculating moves
     moves=+moves+1;
     document.getElementsByClassName("moves")[0].innerHTML = "Moves<br>"+moves;
+    scoreCalc();
+    score = score - moves;
     return;
 }
-
 function clickCell(row,column){
     var cell_class = document.getElementById("cell"+row+column).className;
     if(cell_class != "tile16"){
@@ -125,6 +126,7 @@ function shuffle(){
         }
     }
     myfunction();
+    score = 0;
     return;
 }
 
@@ -168,6 +170,7 @@ function timerUpdate(){
     var a = new Date();
     var time = (a.getHours()-d.getHours())*3600 + (a.getMinutes()-d.getMinutes())*60 + (a.getSeconds()-d.getSeconds());
     document.getElementsByClassName("timer")[0].innerHTML = "Time<br>" + time + "s";
+    document.getElementsByClassName("score")[0].innerHTML = "Score<br>" + (+score);
     return;
 }
 
@@ -176,12 +179,30 @@ function myfunction(){
     setInterval(timerUpdate,1000);
     return;
 }
+function scoreCalc(){
+    if(document.getElementById("cell11").className=="tile1") score += 15;
+    if(document.getElementById("cell12").className=="tile2") score += 15;
+    if(document.getElementById("cell13").className=="tile3") score += 15;
+    if(document.getElementById("cell14").className=="tile4") score += 15;
+    if(document.getElementById("cell21").className=="tile5") score += 15;
+    if(document.getElementById("cell22").className=="tile6") score += 15;
+    if(document.getElementById("cell23").className=="tile7") score += 15;
+    if(document.getElementById("cell24").className=="tile8") score += 15;
+    if(document.getElementById("cell31").className=="tile9") score += 15;
+    if(document.getElementById("cell32").className=="tile10") score += 15;
+    if(document.getElementById("cell33").className=="tile11") score += 15;
+    if(document.getElementById("cell34").className=="tile12") score += 15;
+    if(document.getElementById("cell41").className=="tile13") score += 15;
+    if(document.getElementById("cell42").className=="tile14") score += 15;
+    if(document.getElementById("cell43").className=="tile15") score += 15; 
+}
 
 
 cellWriter();
 colorChanger();
 shuffle();
 var moves=0;
+
 var d = new Date();
 
 
