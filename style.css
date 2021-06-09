@@ -5,7 +5,7 @@
 }
 body{
     box-sizing: border-box;
-    background-color: red;
+    background-image: linear-gradient(to bottom right,rgb(230, 63, 63),rgb(78, 5, 17));
 }
 #top-bar{
     display: inline-block;
@@ -13,8 +13,9 @@ body{
     background-color: rgb(231, 144, 14);
     text-align: center;
     font-size: 5vw;
+    font-family: 'Dancing Script', cursive;
     width: 32.5vw;
-    left: 25vw;
+    left: 20vw;
     border-radius: 1vw;
     margin-top: 5vw;
     color: whitesmoke;
@@ -22,12 +23,12 @@ body{
 }
 #big-box{
     position: relative;
-    left: 25vw;
+    left: 20vw;
     display: block;
     width: 33vw;
 }
 .row{
-    display: block;
+    display: table-row;
     width: 33vw;
     text-align: center;
 }
@@ -276,7 +277,7 @@ body{
     position: absolute;
     font-size: 5vw;
     display: block;
-    background-color: green;
+    background-image: linear-gradient(to right, rgb(211, 72, 114), rgb(255, 0, 21));
     color: white;
     top: 22vw;
     padding: 1vh 1vw 1vh 1vw;
@@ -286,13 +287,13 @@ body{
     margin-left: 1vw;
 }
 .btn:hover{
-    background-color: rgb(24, 54, 24);
+    background-image: linear-gradient(to right, rgb(165, 48, 83), rgb(89, 33, 141));
 }
 .moves{
     position: absolute;
     font-size: 5vw;
     display: block;
-    background-color: green;
+    background-image: linear-gradient(to right, rgb(211, 72, 114), rgb(255, 0, 21));
     color: white;
     top: 5vw;
     padding: 1vh 1vw 1vh 1vw;
@@ -306,7 +307,7 @@ body{
     position: absolute;
     font-size: 5vw;
     display: block;
-    background-color: green;
+    background-image: linear-gradient(to right, rgb(211, 72, 114), rgb(255, 0, 21));
     color: white;
     top: 5vw;
     padding: 1vh 1vw 1vh 1vw;
