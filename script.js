@@ -125,6 +125,7 @@ function shuffle(){
             swapClass("cell"+row+column,"cell"+random_row+random_column);
         }
     }
+    name = prompt("Enter Your Name");
     myfunction();
     score = 0;
     return;
@@ -146,6 +147,8 @@ function checker(){
                                                     if(document.getElementById("cell41").className=="tile13"){
                                                         if(document.getElementById("cell42").className=="tile14"){
                                                             if(document.getElementById("cell43").className=="tile15"){
+                                                                document.body.style.backgroundImage = "url('fireworks.gif')"  ; 
+                                                                document.body.style.backgroundSize = "contain";                                                  
                                                                 alert("Yeah!! You Win");
                                                                 return 0;
                                                             }
@@ -202,7 +205,7 @@ cellWriter();
 colorChanger();
 shuffle();
 var moves=0;
-
+var name ;
 var d = new Date();
 
 
