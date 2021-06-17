@@ -217,7 +217,7 @@ function swipeStart(event){
     startTime = new Date();
 }
 function swipeMove(event){
-    var dummy = event.touches[0].clientX;
+    event.preventDefault();
 }
 function swipeEnd(event,r,c){
     var X = event.changedTouches[0].pageX;
