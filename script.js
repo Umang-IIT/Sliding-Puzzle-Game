@@ -209,3 +209,23 @@ var name ;
 var d = new Date();
 
 
+var startX,startY,threshold=150,allowedTime=200,elapsedTime,startTime;
+
+function swipeStart(event){
+    startX=event.touches[0].clientX;
+    startY=event.touches[0].clientY;
+    startTime = new Date();
+}
+function swipeMove(event){
+    var dummy = event.touches[0].clientX;
+}
+function swipeEnd(event,r,c){
+    var X = event.changedTouches[0].pageX;
+    var Y = event.changedTouches[0].pageY;
+    var newt = new Date();
+    elapsedTime = (newt.getHours()-startTime.getHours())*3600 + (newt.getMinutes()-startTime.getMinutes())*60 + (newt.getSeconds()-startTime.getSeconds());
+    var distanceX = X - startX;
+    var distanceY = Y - startY;
+
+    if((Math.abs(distanceX)>=threshold||Math.abs(distanceY) >=threshold)&&elapsedTime<=allowedTime) clickCell(r,c);
+}
