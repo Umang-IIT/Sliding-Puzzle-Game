@@ -209,7 +209,7 @@ var name ;
 var d = new Date();
 
 
-var startX,startY,threshold=150,allowedTime=200,elapsedTime,startTime;
+var startX,startY,threshold=50,allowedTime=200,elapsedTime,startTime;
 
 function swipeStart(event){
     startX=event.touches[0].clientX;
