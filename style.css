@@ -10,7 +10,7 @@ body{
 #top-bar{
     display: inline-block;
     position: relative;
-    background-color: rgb(231, 144, 14);
+    background-image: url(bg1.jpg);
     text-align: center;
     font-size: 5vw;
     font-family: 'Dancing Script', cursive;
@@ -35,7 +35,7 @@ body{
 .tile1{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -43,14 +43,15 @@ body{
     cursor: pointer;
     transition: all;
     transition-delay: 0s;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile2{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -61,11 +62,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile3{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -76,11 +78,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile4{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -91,11 +94,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile5{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -106,11 +110,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile6{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -121,11 +126,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile7{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -136,11 +142,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile8{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -151,11 +158,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile9{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -166,11 +174,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile10{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -181,11 +190,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile11{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -196,11 +206,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile12{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -211,11 +222,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile13{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -226,11 +238,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile14{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -241,11 +254,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile15{
     display: table-cell;
     width: 8vw;
-    background-color: orange;
+    background-image: url(bg1.jpg);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -256,11 +270,12 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 .tile16{
     display: table-cell;
     width: 8vw;
-    background-color: grey;
+    background-image: url(bg2.jfif);
     height: 8vw;
     border: 2px yellow solid;
     font-size: 6vw;
@@ -271,6 +286,7 @@ body{
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
     border-radius: 10%;
+    color: white;
 }
 
 .btn{
