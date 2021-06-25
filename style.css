@@ -347,6 +347,28 @@ body{
     text-align: center;
 
 }
+.dev{
+    color: white;
+    position: absolute;
+    top: 95vh;
+    margin: auto;
+    width: 70%;
+    display: block;
+    left: 20vw;
+    font-size: 150%;
+}
+.rules{
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 20vw;
+    font-size: 150%;
+}
+
+.solved-img{
+    width: 10vw;
+}
+
 
 @media screen and (max-width: 426px){
     #top-bar{
@@ -469,4 +491,21 @@ body{
         text-align: center;
     }
 
+    .dev{
+        position: relative;
+        top: 180px;
+        left: 2vw;
+    }
+
+    .rules{
+        color: white;
+        position: relative;
+        top: 240px;
+        left: 10vw;
+        font-size: 150%;
+    }
+    
+    .solved-img{
+        width: 30vw;
+    }
 }

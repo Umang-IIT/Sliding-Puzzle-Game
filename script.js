@@ -201,7 +201,6 @@ function scoreCalc(){
     if(document.getElementById("cell43").className=="tile15") score += 15; 
 }
 
-
 cellWriter();
 colorChanger();
 shuffle();
