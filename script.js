@@ -115,7 +115,7 @@ else if(document.getElementById("cell43").className=="tile16") document.getEleme
 else document.getElementById("cell43").style.backgroundImage= "url('bg1.jpg')";
 
 }
-
+var n = "";
 function shuffle(){
     moves=-16;
     for(row=1;row<=4;++row){
@@ -125,7 +125,7 @@ function shuffle(){
             swapClass("cell"+row+column,"cell"+random_row+random_column);
         }
     }
-    name = prompt("Enter Your Name");
+    n = prompt("Enter Your Name");
     myfunction();
     score = 0;
     return;
@@ -174,6 +174,7 @@ function timerUpdate(){
     var time = (a.getHours()-d.getHours())*3600 + (a.getMinutes()-d.getMinutes())*60 + (a.getSeconds()-d.getSeconds());
     document.getElementsByClassName("timer")[0].innerHTML = "Time<br>" + time + "s";
     document.getElementsByClassName("score")[0].innerHTML = "Score<br>" + (+score);
+    localStorage.setItem(n,score);
     return;
 }
 
@@ -205,7 +206,7 @@ cellWriter();
 colorChanger();
 shuffle();
 var moves=0;
-var name ;
+
 var d = new Date();
 
 

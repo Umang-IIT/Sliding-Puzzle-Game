@@ -345,3 +345,125 @@ body{
 
 }
 
+@media screen and (max-width: 426px){
+    #top-bar{
+        top: 100px;
+        width: 79vw;
+        left: 10vw;
+        font-size: 300%;
+        border-radius: 5px;
+    }
+    #big-box{
+        top: 100px;
+        left: 10vw;
+        width: 80vw;
+        
+    }
+    .row{
+        width: 60vw;
+    }
+    .tile1{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile2{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile3{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile4{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile5{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile6{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile7{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile8{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile9{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile10{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile11{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile12{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile13{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile14{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile15{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .tile16{
+        width: 20vw;
+        height: 20vw;
+        font-size: 16vw;
+    }
+    .moves{
+        font-size: 180%;
+        left: 10vw;
+        top: 10px;
+    }
+    .score{
+        font-size: 180%;
+        left: 43vw;
+        top: 10px;
+    }
+    .timer{
+        font-size: 180%;
+        left: 70vw;
+        top: 10px;
+    }
+    .btn{
+        position: relative;
+        top: 150px;
+        font-size: 180%;
+        left: 9vw;
+        width: 80vw;
+        text-align: center;
+    }
+
+}
