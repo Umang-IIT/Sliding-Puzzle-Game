@@ -5,7 +5,8 @@
 }
 body{
     box-sizing: border-box;
-    background-image: linear-gradient(to bottom right,rgb(230, 63, 63),rgb(78, 5, 17));
+    background-image: url(back.jfif);
+    background-size: cover;
 }
 #top-bar{
     display: inline-block;
