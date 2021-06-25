@@ -301,6 +301,8 @@ body{
     left: 58vw;
     border-radius: 10px;
     margin-left: 1vw;
+    width: 20vw;
+    text-align: center;
 }
 .btn:hover{
     background-image: linear-gradient(to bottom right, rgb(165, 48, 83), rgb(89, 33, 141));
